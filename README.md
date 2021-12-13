@@ -20,7 +20,7 @@ cmp.setup({
 **Type:** `boolean`
 **Default:** `true`
 
-The code which gets a list of digraphs and formats it into completion items takes a significant amount of time (15-20 milliseconds), but digraphs don't really change at all while the editor is running, so by default this source will query the digraphs only once when it is invoked for the first time (meaning that it will see the custom digraphs defined in the vimrc). Enable this option only if you are for whatever reason adding digraphs at runtime.
+The code which gets a list of digraphs and formats it into completion items takes a significant amount of time (15-20 milliseconds), but digraphs don't really change at all while the editor is running, so by default this source will query the digraphs only once when it is invoked for the first time (meaning that it will see the custom digraphs defined in the vimrc). Disable this option only if you are for whatever reason adding digraphs at runtime.
 
 ### `filter`
 
